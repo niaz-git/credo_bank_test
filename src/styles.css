@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style file
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@import url('./assets/styles/calender.css');
+@import "compass/css3";
+ngb-datepicker {
+    position: absolute;
+    background-color: white;
+}
+    .ngb-dp-header {
+        background-color: rgba(52,104,191,1);
+    }
+
+  
+    .ngb-dp-weekdays, .ngb-dp-header{
+        background-color: #fff !important;
+    }
+    .ngb-dp-weekday{
+        color: #222222 !important;
+        font-weight: 600;
+    }
+    .form-select{
+        border-width: 0px !important;
+        background-color:  #fafafa !important;
+        color: #3F40F0;
+        margin: 5px;
+        font-weight: 600;
+    }
+    .form-select > option{
+        background-color: #fff !important;
+        padding: 5px;
+    }
+    .ngb-dp-arrow-btn{
+        opacity: 0;
+    }
+    .form-select >option:hover {
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        border-radius: 0px;
+        line-height: 2;
+        margin-top: 5px;
+        padding-top: 10px;
+        font-size: 20px;
+        background-color: aqua;
+      }
+
+      .btn-secondary{
+          background-color: #fff;
+          border: 1px solid #ddd;
+          padding: 5px 20px !important;
+          color: #333;
+          font-weight: 600;
+
+      }
+      .btn-secondary:hover{ background-color: #ddd;           border: 1px solid #ddd;
+      }
+      .btn-primary{
+        background-color: #3F40F0;
+        border: 1px solid #3F40F0;
+        padding: 5px 20px !important;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .ngb-dp-day, .ngb-dp-weekday, .ngb-dp-week-number{
+        width: 3rem !important;
+        height: 3rem !important;
+        font-style:normal !important;
+    }
+    [ngbDatepickerDayView]{
+        width: 3rem !important;
+    height: 3rem !important;
+    line-height: 3rem !important;
+    border-radius: 7.25rem !important;
+    }
+
+    
